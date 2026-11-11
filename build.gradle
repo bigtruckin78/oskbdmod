@@ -1,1 +1,21 @@
 
+groovy
+plugins {
+    id 'net.neoforged.moddev' version '2.0.7-beta'
+}
+
+version = '1.0.0'
+group = 'com.example.oskbdmod'
+
+base {
+    archivesName = 'oskbdmod'
+}
+
+neoForm {
+    version = '1.21-20240613.152323'
+}
+
+dependencies {
+    implementation 'net.java.dev.jna:jna:5.14.0'
+    implementation 'net.java.dev.jna:jna-platform:5.14.0'
+}
